@@ -21,7 +21,7 @@ brew install $formula
 
 [QuickTerm](https://github.com/AlexGustafsson/quickterm) is a macOS application to allow quick interactions with a terminal, rendering its output as a sleek notification-like snackbar. Created without Xcode for macOS 11. Written in Swift 5 and SwiftUI.
 
-![QuickTerm UI](https://github.com/AlexGustafsson/quickterm/blob/master/.github/screenshots/ui.png)
+![QuickTerm UI](https://github.com/AlexGustafsson/quickterm/blob/main/.github/screenshots/ui.png)
 
 #### Installing
 
