@@ -19,9 +19,9 @@ brew install $formula
 
 ### QuickTerm
 
-[QuickTerm](https://github.com/AlexGustafsson/quickterm) is a macOS application to allow quick interactions with a terminal, rendering its output as a sleek notification-like snackbar. Created without Xcode for macOS 11. Written in Swift 5 and SwiftUI.
-
 ![QuickTerm UI](https://github.com/AlexGustafsson/quickterm/blob/main/.github/screenshots/ui.png)
+
+[QuickTerm](https://github.com/AlexGustafsson/quickterm) is a macOS application to allow quick interactions with a terminal, rendering its output as a sleek notification-like snackbar. Created without Xcode for macOS 11. Written in Swift 5 and SwiftUI.
 
 #### Installing
 
@@ -42,6 +42,8 @@ brew uninstall --zap quickterm
 ```
 
 ### PewView
+
+![PewView UI](https://github.com/AlexGustafsson/pewview/blob/master/.github/banner.png)
 
 [PewView](https://github.com/AlexGustafsson/pewview) is a self-hosted network visualization on a 3D globe with support for IPFIX, Netflow and sFlow. Written in Go.
 
