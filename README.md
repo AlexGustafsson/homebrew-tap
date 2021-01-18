@@ -41,6 +41,29 @@ If you want to remove all files created by QuickTerm (currently only the configu
 brew uninstall --zap quickterm
 ```
 
+### PewView
+
+[PewView](https://github.com/AlexGustafsson/pewview) is a self-hosted network visualization on a 3D globe with support for IPFIX, Netflow and sFlow. Written in Go.
+
+#### Installing
+
+```sh
+brew install alexgustafsson/tap/pewview
+```
+
+#### Uninstalling
+
+```sh
+brew uninstall pewview
+```
+
 ## Documentation
 
 See `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+
+## Contributing
+
+```
+# Validate syntax
+brew test-bot --only-tap-syntax --tap alexgustafsson/tap
+```
