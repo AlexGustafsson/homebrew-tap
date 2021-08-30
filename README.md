@@ -59,13 +59,48 @@ brew install alexgustafsson/tap/pewview
 brew uninstall pewview
 ```
 
+### Bake
+
+[Bake](https://github.com/AlexGustafsson/bake) is a cross-platform language and tool for building things - like Make, but better.
+
+#### Installing
+
+```sh
+brew install alexgustafsson/tap/bake
+```
+
+#### Uninstalling
+
+```sh
+brew uninstall bake
+```
+
+### Bagels
+
+[Bagels](https://github.com/AlexGustafsson/bake) is the official bake language server.
+
+#### Installing
+
+```sh
+brew install alexgustafsson/tap/bagels
+```
+
+#### Uninstalling
+
+```sh
+brew uninstall bagels
+```
+
 ## Documentation
 
 See `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
 
 ## Contributing
 
-```
+```shell
+# Optionally link a local copy of the tap
+ln -s $(pwd) /usr/local/Homebrew/Library/Taps/$(whoami)/homebrew-tap
+
 # Validate syntax
 brew test-bot --only-tap-syntax --tap alexgustafsson/tap
 ```
